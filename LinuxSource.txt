@@ -1282,7 +1282,7 @@ function Linux.Create(config)
             Position = UDim2.new(0, 0, 0, 0),
             Visible = false,
             ZIndex = 3,
-            BorderSizePixel = 1,
+            BorderSizePixel = 0,
             BorderColor3 = Color3.fromRGB(60, 60, 60)
         })
         
@@ -1319,7 +1319,7 @@ function Linux.Create(config)
             AutomaticCanvasSize = Enum.AutomaticSize.Y,
             ScrollBarThickness = 0,
             ZIndex = 1,
-            BorderSizePixel = 1,
+            BorderSizePixel = 0,
             BorderColor3 = Color3.fromRGB(60, 60, 60),
             ScrollingEnabled = true,
             CanvasPosition = Vector2.new(0, 0)
